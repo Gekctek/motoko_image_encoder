@@ -1,13 +1,15 @@
 [dependencies]
-base = "0.11.3"
+base = "0.12.1"
+deflate = "0.1.0"
+xtended-numbers = "0.3.1"
 
 [package]
-name = "dao-proposal-engine"
+name = "image_encoder"
 version = "0.1.0"
-description = "A library for creating, voting on and executing proposals"
-repository = "https://github.com/edjcase/motoko_proposal_engine"
-keywords = [ "dao", "proposal", "proposals", "vote", "voting" ]
+description = "A library for encoding and decoding image bytes"
+repository = "https://github.com/edjcase/motoko_image_encoder"
+keywords = [ "image", "png", "encode" ]
 license = "MIT"
 
 [dev-dependencies]
-test = "1.0.1"
+test = "2.0.0"
